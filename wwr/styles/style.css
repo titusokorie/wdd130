@@ -22,7 +22,7 @@ body {
     padding: 0;
 }
 
-#logo_link{
+#logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
@@ -41,7 +41,7 @@ h2 {
     width: 100%;
 }
 
-.logo, {
+.logo {
     width: 30px;
     
 }
@@ -162,43 +162,45 @@ nav a:hover {
 
 .rivers-card { 
     display: grid;
-    margin: 200px 0; 
     grid-column: 2/4; 
     grid-row: 2/3;
 } 
 
 .camping-card{
     display: grid;
-    margin: 200px 0; 
     grid-column: 5/7; 
     grid-row: 2/3; }
 
 .rapids-card{ 
     display: grid;
-    margin: 200px 0; 
     grid-column: 8/10; 
     grid-row: 2/3;
 }
 
 #background {
-    display: grid;
-    grid-template-columns: 1/11;
-    grid-template-rows: 4/9;
+    grid-column: 1/11;
+    grid-row: 4/9;
 }
 
 .mountains{
-    width: 100%; 
     grid-column: 2/7; 
     grid-row: 5/8; 
     box-shadow: 5px 5px 10px #6f7364; 
 }
 
 .msg {
-    display: grid;
-    grid-template-columns: 6/10;
-    grid-template-rows: 6/7;
+    grid-column: 6/10;
+    grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
 }
+
+
+
+.home-grid { 
+    display: grid; 
+    grid-template-columns: repeat(10, 1fr);
+    }
+
 .card-img{
     border: 10px solid black;
     width: 100%;
