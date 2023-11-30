@@ -42,7 +42,7 @@ h2 {
 }
 
 .logo {
-    width: 30px;
+    width: 80px;
     
 }
 
@@ -233,7 +233,7 @@ nav a:hover {
 }
 
 .msg p{
-    font-size: .8em;
+    font-size: .6em;
     padding-bottom: 15px;
 }
 
@@ -271,6 +271,17 @@ footer .social img {
     margin-top: 3em;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.article img {
+    width:100%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
