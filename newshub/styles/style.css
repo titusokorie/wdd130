@@ -11,31 +11,31 @@
 width: 100%;
 }
 
-.section-content {
+.blog-section .section-content {
     width: 85%;
     margin: 20px auto;
 }
 
-.title {
+.blog-section .section-content .title {
     width: 60%;
     text-align: center;
     margin: auto;
 }
 
-.title h2 {
+.blog-section .section-content .title h2 {
     font-size: 40px;
     color: #23d25d;
     text-transform: uppercase;
 }
 
-.title p {
+.p {
     font-size: 20px;
     color: #6a6a6a;
     margin-top: 20px;
 }
 
 
-.card {
+.cards {
     display:grid;
     grid-template-columns: repeat (3, 1fr);
     grid-gap: 50px;
