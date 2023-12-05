@@ -282,6 +282,20 @@ footer .social img {
 .article img {
     width:100%;
 }
+
+input {
+    width: 20%;
+    height: 30px;
+    border: 2px solid rgb(135, 165, 231);
+    border-radius: 4px;
+    margin: 10px;
+  }
+
+  textarea {
+    height: 200px;
+    width: 20%;
+  }
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
