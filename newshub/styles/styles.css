@@ -1,25 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-body {
+h1, h2, h3, h4, h5, h6 {
+    font-family: Merriweather, Georgia, serif;
+}
+#content{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+h1{
     text-align: center;
 }
 
+body {
+    text-align: center;
+    background-color: silver;
+}
+
+
+.logo {
+    width: 80px;
+    
+}
+
+.icon{
+    width:80px;
+    padding-top: 10px;
+}
 main p{
     width: 80%;
     margin: 25px auto;
     text-align: center;
 }
-nav, footer {
-    background-color: steelblue;
+nav {
+    background-color: transparent;
     color: gold;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: flex-end;
 }
 
-footer {
-    background-color: steelblue;
-    color: gold;
-    padding: 10px;
-    text-align: center;
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: transparent;
+    color: steelblue;
+    padding: 20px;
+
 }
 
 a {
@@ -46,12 +74,27 @@ p {
     
 }
 
-footer p {
-    font-size: 20px;
-    margin: 20px auto;
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: steelblue;
+    color: white;
+    font-size: 1.2em;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
-a:hover {
+footer p a:hover {
+    text-decoration: underline;
     background-color: white;
     color: steelblue;
 }
+
+footer .social img {
+    padding-top: 15px;
+}
+
+
+
